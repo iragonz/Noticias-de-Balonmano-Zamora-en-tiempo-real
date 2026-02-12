@@ -1,0 +1,35 @@
+# Entorno virtual
+venv/
+env/
+.venv/
+
+# Base de datos ChromaDB
+data/chroma_db/
+
+# Cache de modelos
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+
+# Modelos descargados
+*.bin
+*.safetensors
+*.onnx
+*.h5
+
+# Variables de entorno
+.env
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

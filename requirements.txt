@@ -1,0 +1,24 @@
+# Core
+python-dotenv
+
+# Embeddings
+sentence-transformers
+torch
+
+# Vector Database
+chromadb
+
+# LLM
+google-generativeai
+
+# Scraping (para después)
+beautifulsoup4
+requests
+feedparser
+
+# Utils
+numpy
+pandas
+
+# Interfaz (opcional)
+streamlit
