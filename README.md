@@ -2,18 +2,18 @@
 
 Sistema de Retrieval-Augmented Generation (RAG) para responder preguntas sobre el Club Balonmano Zamora utilizando información actualizada.
 
-## 🎯 Objetivo
+## Objetivo
 
 Diseñar un sistema RAG que responda preguntas de usuarios sobre noticias, resultados y actualidad del Balonmano Zamora, manteniendo la información actualizada automáticamente.
 
-## 🏗️ Arquitectura
+## Arquitectura
 
 - **Embeddings**: multilingual-e5-large (1024 dimensiones)
 - **Base de datos vectorial**: ChromaDB
 - **LLM**: Google Gemini 2.5 Flash
 - **Scraping**: BeautifulSoup + APIs
 
-## 📦 Instalación
+## Instalación
 ```bash
 # Clonar repositorio
 git clone https://github.com/iragonz/Noticias-de-Balonmano-Zamora-en-tiempo-real.git
@@ -31,7 +31,7 @@ cp .env.example .env
 # Editar .env y añadir tu GEMINI_API_KEY
 ```
 
-## 🚀 Uso
+## Uso
 ```bash
 # Probar embeddings
 python src/embeddings.py
@@ -40,6 +40,6 @@ python src/embeddings.py
 python app.py
 ```
 
-## 👨‍💻 Autor
+## Autor
 
 Iván Ramos González
